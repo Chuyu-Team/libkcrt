@@ -3,12 +3,25 @@
 libkcrt provides an easy way to use C Run-time Library from Windows Kernel 
 exported from ntdll.dll in your user-mode applications.
 
+I suggest you use VC-LTL for non-special cases, not the libkcrt.
+
 ** Under Construction **
+
+## Todo list
+
+- Add SEH Support for the x86 target.
+- Add GS Support.
+- Add RTC Support.
+- Add C++ EH Support.
+- Add SDL Support.
+- Add basic memory allocation support for C and C++.
+- Without defining the entry point manually.
 
 ## Available CRT Functions
 
-| __isascii  | _strnicmp   | atan     | iswdigit  | strchr   | vsprintf |
+| Column 1   | Column 2    | Column 3 | Column 4  | Column 5 | Column 6 |
 |------------|-------------|----------|-----------|----------|----------|
+| __isascii  | _strnicmp   | atan     | iswdigit  | strchr   | vsprintf |
 | __iscsym   | _strupr     | atoi     | iswlower  | strcmp   | wcscat   |
 | __iscsymf  | _swprintf   | atol     | iswspace  | strcpy   | wcschr   |
 | __toascii  | _ui64toa    | bsearch  | iswxdigit | strcspn  | wcscmp   |
