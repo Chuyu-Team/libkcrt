@@ -5,7 +5,7 @@ exported from ntdll.dll in your user-mode applications.
 
 I suggest you use VC-LTL for non-special cases, not the libkcrt.
 
-** Under Construction **
+**Under Construction**
 
 ## Todo list
 
@@ -16,6 +16,7 @@ I suggest you use VC-LTL for non-special cases, not the libkcrt.
 - Add SDL Support.
 - Add basic memory allocation support for C and C++.
 - Without defining the entry point manually.
+- Add static variable initialization support.
 
 ## Available CRT Functions
 
