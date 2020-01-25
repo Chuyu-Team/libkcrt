@@ -1,0 +1,25 @@
+﻿LIBRARY ntdll.dll
+
+EXPORTS
+
+_alldiv
+_alldvrm
+_allmul
+_alloca_probe
+_alloca_probe_16
+_alloca_probe_8
+_allrem
+_allshl
+_allshr
+_aulldiv
+_aulldvrm
+_aullrem
+_aullshr
+_chkstk
+_CIcos
+_CIlog
+_CIpow
+_CIsin
+_CIsqrt
+_fltused
+_ftol

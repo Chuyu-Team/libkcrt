@@ -1,0 +1,10 @@
+﻿LIBRARY ntdll.dll
+
+EXPORTS
+
+__C_specific_handler
+__chkstk
+_fltused
+_local_unwind
+_setjmpex
+longjmp
