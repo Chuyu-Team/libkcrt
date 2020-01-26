@@ -3,7 +3,8 @@
 libkcrt provides an easy way to use C Run-time Library from Windows Kernel 
 exported from ntdll.dll in your user-mode applications.
 
-I suggest you use VC-LTL for non-special cases, not the libkcrt.
+I suggest you use [VC-LTL](https://github.com/Chuyu-Team/VC-LTL) for 
+non-special cases, not the libkcrt.
 
 **Under Construction**
 
@@ -46,5 +47,9 @@ I suggest you use VC-LTL for non-special cases, not the libkcrt.
 ## License
 
 libkcrt is distributed under the [MIT License](LICENSE).
+
+But the object files in the source directory are extracted from Windows Software
+Development Kit (BufferOverflow.lib), Windows Driver Kit (ntdllp.lib) and Visual
+Studio (libcmt.lib), you need to comply with their licenses too.
 
 ## Chuyu Team
