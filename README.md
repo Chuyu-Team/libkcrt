@@ -9,8 +9,6 @@ I suggest you use VC-LTL for non-special cases, not the libkcrt.
 
 ## Todo list
 
-- Add SEH Support for the x86 target.
-- Add GS Support.
 - Add RTC Support.
 - Add C++ EH Support.
 - Add SDL Support.
