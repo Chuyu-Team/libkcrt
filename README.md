@@ -9,12 +9,14 @@ I suggest you use VC-LTL for non-special cases, not the libkcrt.
 
 ## Todo list
 
-- Add RTC Support.
-- Add C++ EH Support.
-- Add SDL Support.
 - Add basic memory allocation support for C and C++.
 - Without defining the entry point manually.
 - Add static variable initialization support.
+
+## Known Issues
+
+- Run-Time Error Checks (/RTC) is not supported.
+- C++ Exception Handling is not supported.
 
 ## Available CRT Functions
 

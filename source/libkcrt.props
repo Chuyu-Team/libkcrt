@@ -18,10 +18,8 @@
 
       <!-- Disable features which libkcrt not supported -->
 
-      <SDLCheck></SDLCheck>
       <ExceptionHandling>false</ExceptionHandling>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck>false</BufferSecurityCheck>
       
     </ClCompile>
     <Link>
